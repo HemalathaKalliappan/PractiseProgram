@@ -14,7 +14,7 @@ public class FibonacciSeries {
 	        {
 	           
 	            int sum = previousNumber + nextNumber;
-	           previousNumber = nextNumber;
+	            previousNumber = nextNumber;
 	            nextNumber = sum;
 	            System.out.print(previousNumber+" ");
 	        }

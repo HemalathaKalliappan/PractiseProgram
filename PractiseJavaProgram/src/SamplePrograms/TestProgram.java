@@ -13,10 +13,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
-public class TestProgram {
-	
+public class TestProgram  {
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","E:\\chromedriver_win32 (1)\\chromedriver.exe");
+
+		
+	System.setProperty("webdriver.chrome.driver","E:\\chromedriver_win32 (1)\\chromedriver.exe");
 	    WebDriver d1 = new ChromeDriver();
 	    d1.get("https://www.hotstar.com/");
 	    //d1.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -29,10 +30,14 @@ public class TestProgram {
 		
 	}
 	
+
 	public static void ClickOn(WebDriver driver, WebElement element, int timeout) {
 		WebDriverWait wait = new WebDriverWait(driver,timeout);
 		wait.until(ExpectedConditions.stalenessOf(element));
 		element.click();
 	}
+
+
+	
 
 }

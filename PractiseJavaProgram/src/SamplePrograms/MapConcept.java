@@ -18,9 +18,9 @@ public class MapConcept {
 		
 		Map<String, Integer> hm = new HashMap<String, Integer>();
 		hm.put("a", 100);
-		hm.put("r", 200);
+		hm.put("c", 100);
 		hm.put("c", 500);
-		hm.put("d", 400);
+		hm.put("e", 400);
 		hm.put("d", 200);
 		Set<Map.Entry<String, Integer>> st = hm.entrySet();
 		System.out.println(st);
@@ -33,7 +33,7 @@ public class MapConcept {
 		
 		Map<Integer,String> ht=new Hashtable<Integer,String>(); 
         ht.put(101,"ajay"); 
-        ht.put(101,"ajay"); 
+        ht.put(101,"vijay"); 
         ht.put(102,"Ravi"); 
         ht.put(103,"Rahul"); 
         System.out.println("-------------Hash table--------------"); 

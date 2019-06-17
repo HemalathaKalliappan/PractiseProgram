@@ -1,30 +1,15 @@
 package basicjava;
 
-public class NormalClass extends AbstractClass{
-
-	@Override
-	void test2() {
-		// TODO Auto-generated method stub
+public class NormalClass extends normalclass2{
+	
+	
+	public static void main(String[] args) {
+		
+		NormalClass d1 = new NormalClass();
+		
 		
 	}
-
-
 	
-
-	
-
-	
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

@@ -10,7 +10,7 @@ public class normalclass2 {
 
 	public static void main(String[] args) {
 		
-	new	normalclass2();
+		NormalClass obj = NormalClass.methodA();
 	}
 
 }
